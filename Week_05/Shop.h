@@ -1,10 +1,10 @@
 #pragma once
 #include "Waffle.h"
-#define MAX_WAFFLE_COUNT 20
+#define MAX_WAFFLES_COUNT 20
 
 class Shop
 {
-	Waffle waffles[MAX_WAFFLE_COUNT];
+	Waffle waffles[MAX_WAFFLES_COUNT];
 	int wafflesCount = 0;
 	double income = 0;
 	double expenses = 0;
